@@ -1,0 +1,83 @@
+{
+  "default_tier": "medium",
+  "memory_limit_mb": 2048,
+  "tiers": {
+    "pico": {
+      "name": "SmolLM2-135M-Instruct-Q4_K_M",
+      "url": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF/resolve/main/SmolLM2-135M-Instruct-Q4_K_M.gguf",
+      "filename": "SmolLM2-135M-Instruct-Q4_K_M.gguf",
+      "n_gpu_layers": 999,
+      "template": "qwen"
+    },
+    "nano": {
+      "name": "SmolLM2-360M-Instruct-Q4_K_M",
+      "url": "https://huggingface.co/bartowski/SmolLM2-360M-Instruct-GGUF/resolve/main/SmolLM2-360M-Instruct-Q4_K_M.gguf",
+      "filename": "SmolLM2-360M-Instruct-Q4_K_M.gguf",
+      "n_gpu_layers": 999,
+      "template": "qwen"
+    },
+    "micro": {
+      "name": "Qwen3-0.6B-Instruct-Q4_K_M",
+      "url": "https://huggingface.co/bartowski/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q4_K_M.gguf",
+      "filename": "Qwen_Qwen3-0.6B-Q4_K_M.gguf",
+      "n_gpu_layers": 999,
+      "template": "qwen"
+    },
+    "tiny": {
+      "name": "Gemma-3-1B-it-Q4_K_M",
+      "url": "https://huggingface.co/bartowski/google_gemma-3-1b-it-GGUF/resolve/main/google_gemma-3-1b-it-Q4_K_M.gguf",
+      "filename": "google_gemma-3-1b-it-Q4_K_M.gguf",
+      "n_gpu_layers": 999,
+      "template": "llama"
+    },
+    "mini": {
+      "name": "Llama-3.2-1B-Instruct-Q4_K_M",
+      "url": "https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+      "filename": "Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+      "n_gpu_layers": 999,
+      "template": "llama"
+    },
+    "small": {
+      "name": "Qwen3-1.7B-Instruct-Q4_K_M",
+      "url": "https://huggingface.co/bartowski/Qwen_Qwen3-1.7B-GGUF/resolve/main/Qwen_Qwen3-1.7B-Q4_K_M.gguf",
+      "filename": "Qwen_Qwen3-1.7B-Q4_K_M.gguf",
+      "n_gpu_layers": 999,
+      "template": "qwen"
+    },
+    "medium": {
+      "name": "Llama-3.2-3B-Instruct-Q4_K_M",
+      "url": "https://huggingface.co/bartowski/Llama-3.2-3B-Instruct-GGUF/resolve/main/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "filename": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "n_gpu_layers": 999,
+      "template": "llama"
+    },
+    "large": {
+      "name": "Phi-4-mini-Instruct-Q4_K_M",
+      "url": "https://huggingface.co/bartowski/microsoft_Phi-4-mini-instruct-GGUF/resolve/main/microsoft_Phi-4-mini-instruct-Q4_K_M.gguf",
+      "filename": "microsoft_Phi-4-mini-instruct-Q4_K_M.gguf",
+      "n_gpu_layers": 999,
+      "template": "llama"
+    },
+    "xl": {
+      "name": "Gemma-3-4B-it-Q4_K_M",
+      "url": "https://huggingface.co/bartowski/google_gemma-3-4b-it-GGUF/resolve/main/google_gemma-3-4b-it-Q4_K_M.gguf",
+      "filename": "google_gemma-3-4b-it-Q4_K_M.gguf",
+      "n_gpu_layers": 999,
+      "template": "llama"
+    },
+    "xxl": {
+      "name": "Qwen3-4B-Instruct-Q4_K_M",
+      "url": "https://huggingface.co/bartowski/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q4_K_M.gguf",
+      "filename": "Qwen_Qwen3-4B-Q4_K_M.gguf",
+      "n_gpu_layers": 999,
+      "template": "qwen"
+    }
+  },
+  "inference": {
+    "n_ctx": 2048,
+    "temp": 0.7,
+    "top_p": 0.9,
+    "use_mmap": true,
+    "use_mlock": false
+  }
+}
